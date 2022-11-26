@@ -15,3 +15,26 @@ let typed = new Typed('.typed', {
     showCursor: true,
     startDelay: 200,
 });
+
+
+
+function AgregaClick(){
+    let myModal = new bootstrap.Modal(document.getElementById('modal'), {
+        keyboard: false
+      });
+      myModal.show();
+
+
+
+    
+ }
+
+ var swiper = new Swiper(".mySwiper", {
+    direction: "vertical",
+    slidesPerView: "auto",
+    freeMode: true,
+    scrollbar: {
+      el: ".swiper-scrollbar",
+    },
+    mousewheel: true,
+  });
